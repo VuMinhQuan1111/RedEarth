@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/elementor/includes" isTestSource="false" packagePrefix="Elementor" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/houzez-login-register/social" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/houzez-theme-functionality/elementor/traits" isTestSource="false" packagePrefix="Elementor" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/houzez-theme-functionality/extensions/meta-box/addons/mb-term-meta/src" isTestSource="false" packagePrefix="MBTM" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/houzez-theme-functionality/extensions/meta-box/src" isTestSource="false" packagePrefix="MetaBox" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/houzez-theme-functionality/includes/reCaptcha" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/one-click-demo-import/inc" isTestSource="false" packagePrefix="OCDI" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/wpforms-lite/src" isTestSource="false" packagePrefix="WPForms" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/themes/houzez/framework/stripe-php/lib" isTestSource="false" packagePrefix="Stripe" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
