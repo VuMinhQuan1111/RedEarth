@@ -76,4 +76,4 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
 
 <?php
 }
-get_footer();
+get_footer();?>

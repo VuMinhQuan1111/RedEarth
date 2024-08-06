@@ -114,7 +114,7 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
         </div><!-- row -->
     </div><!-- container -->
 </section><!-- blog-wrap -->
-
+<?php the_content(); ?>
 <?php
 }
-get_footer();
+get_footer();?>

@@ -60,5 +60,5 @@ $page_bg = 'page-content-wrap';
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- listing-wrap -->
-
+<?php the_content(); ?>
 <?php get_footer(); ?>
