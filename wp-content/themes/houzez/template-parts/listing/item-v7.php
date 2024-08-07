@@ -65,11 +65,17 @@ if( houzez_is_fullwidth_2cols_custom_width() ) {
 				<ul class="item-amenities item-amenities-with-icons">
 					<?php get_template_part('template-parts/listing/partials/type'); ?>
 				</ul>
-
-				<?php get_template_part('template-parts/listing/partials/item-price'); ?>
+				<?php 
+				$city = houzez_taxonomy_simple('property_city');
+				echo '</strong> <span style="color:#b42128">'.esc_attr( $city ).'</span></li>';
+				?>
 				<?php get_template_part('template-parts/listing/partials/item-title'); ?>
-				<?php get_template_part('template-parts/listing/partials/item-address'); ?>
+				<br>
+				<?php //get_template_part('template-parts/listing/partials/item-address'); ?>
 				<?php get_template_part('template-parts/listing/partials/item-features-v7'); ?>
+				<br>
+				<?php get_template_part('template-parts/listing/partials/item-price'); ?>
+				
 			</div><!-- item-body -->
 		
 			<div class="item-footer <?php echo esc_attr($totalButtonsClass); ?> clearfix">

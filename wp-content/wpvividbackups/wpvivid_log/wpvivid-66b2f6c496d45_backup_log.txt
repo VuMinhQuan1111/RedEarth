@@ -1,0 +1,101 @@
+Log created: 2024-08-07 04:23:32
+Type: backup
+[2024-08-07 04:23:37][notice]Start backing up.
+[2024-08-07 04:23:37][notice]server info fcgi:Off max execution time: 300 wp version:6.6 php version:8.2.12 db version:10.4.32 php ini:safe_mode: memory_limit:256M memory_get_usage:106.31 MB memory_get_peak_usage:109.96 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-08-07 04:23:37][notice]Prepare to backup backup_db files.
+[2024-08-07 04:23:37][notice]Start exporting database.
+[2024-08-07 04:23:37][notice]Preparing to dump table wp_favethemes_currency_converter
+[2024-08-07 04:23:37][notice]Preparing to dump table wp_houzez_crm_activities
+[2024-08-07 04:23:37][notice]Preparing to dump table wp_houzez_crm_deals
+[2024-08-07 04:23:37][notice]Preparing to dump table wp_houzez_crm_enquiries
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_crm_leads
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_crm_notes
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_crm_viewed_listings
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_currencies
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_fields_builder
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_search
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_thread_messages
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_houzez_threads
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_revslider_layer_animations
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_revslider_navigations
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_wpfm_backup
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_wpforms_logs
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_actionscheduler_claims
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_actionscheduler_groups
+[2024-08-07 04:23:38][notice]Preparing to dump table wp_aioseo_crawl_cleanup_logs
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_e_events
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_links
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_revslider_sliders
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_revslider_sliders7
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_revslider_slides
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_revslider_slides7
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_revslider_static_slides
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_term_relationships
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_aioseo_crawl_cleanup_blocked_args
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_commentmeta
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_term_taxonomy
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_termmeta
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_terms
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_usermeta
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_users
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_wpforms_payment_meta
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_actionscheduler_logs
+[2024-08-07 04:23:39][notice]Preparing to dump table wp_aioseo_notifications
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_comments
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_revslider_css
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_wpforms_payments
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_actionscheduler_actions
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_aioseo_cache
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_aioseo_posts
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_favethemes_insights
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_options
+[2024-08-07 04:23:40][notice]Preparing to dump table wp_simply_static_pages
+[2024-08-07 04:23:41][notice]Preparing to dump table wp_postmeta
+[2024-08-07 04:23:42][notice]Preparing to dump table wp_posts
+[2024-08-07 04:23:43][notice]Exporting database finished.
+[2024-08-07 04:23:43][notice]Start compressing database
+[2024-08-07 04:23:43][notice]Prepare to zip file. file: localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_db.sql
+[2024-08-07 04:23:51][notice]Adding zip files completed.localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_db.part001.zip, filesize: 3.68 MB
+[2024-08-07 04:23:52][notice]Compressing database completed
+[2024-08-07 04:23:52][notice]Backing up backup_db completed.
+[2024-08-07 04:23:52][notice]Prepare to backup backup_themes files.
+[2024-08-07 04:23:53][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_themes.part001.zip index:1673
+[2024-08-07 04:26:08][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_themes.part001.zip success. index:1673 file size:42.83 MB
+[2024-08-07 04:26:08][notice]Backing up backup_themes completed.
+[2024-08-07 04:26:08][notice]Prepare to backup backup_plugin files.
+[2024-08-07 04:26:28][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_plugin.part001.zip index:10184
+[2024-08-07 04:31:08][error]Task timed out.
+[2024-08-07 04:31:19][notice]Start backing up.
+[2024-08-07 04:31:19][notice]server info fcgi:Off max execution time: 300 wp version:6.6 php version:8.2.12 db version:10.4.32 php ini:safe_mode: memory_limit:256M memory_get_usage:87.40 MB memory_get_peak_usage:91.20 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-08-07 04:31:19][notice]Prepare to backup backup_plugin files.
+[2024-08-07 04:31:29][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_plugin.part001.zip index:10184
+[2024-08-07 04:33:23][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_plugin.part001.zip success. index:10184 file size:185.03 MB
+[2024-08-07 04:33:23][notice]Backing up backup_plugin completed.
+[2024-08-07 04:33:23][notice]Prepare to backup backup_uploads files.
+[2024-08-07 04:33:23][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_uploads.part001.zip index:680
+[2024-08-07 04:34:05][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_uploads.part001.zip success. index:680 file size:112.71 MB
+[2024-08-07 04:34:05][notice]Backing up backup_uploads completed.
+[2024-08-07 04:34:05][notice]Prepare to backup backup_content files.
+[2024-08-07 04:34:05][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_content.part001.zip index:2
+[2024-08-07 04:34:05][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_content.part001.zip success. index:2 file size:561.00 B
+[2024-08-07 04:34:05][notice]Backing up backup_content completed.
+[2024-08-07 04:34:05][notice]Prepare to backup backup_core files.
+[2024-08-07 04:34:07][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_core.part001.zip index:2683
+[2024-08-07 04:35:58][notice]Compressing zip file:localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_core.part001.zip success. index:2683 file size:92.12 MB
+[2024-08-07 04:35:58][notice]Backing up backup_core completed.
+[2024-08-07 04:35:58][notice]Prepare to backup backup_merge files.
+[2024-08-07 04:35:58][notice]Prepare to zip file. file: localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_db.zip
+[2024-08-07 04:35:58][notice]Adding zip files completed.localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_all.part001.zip, filesize: 3.69 MB
+[2024-08-07 04:35:58][notice]Prepare to zip file. file: localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_themes.zip
+[2024-08-07 04:36:02][notice]Adding zip files completed.localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_all.part001.zip, filesize: 14.55 MB
+[2024-08-07 04:36:02][notice]Prepare to zip file. file: localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_plugin.zip
+[2024-08-07 04:36:18][notice]Adding zip files completed.localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_all.part001.zip, filesize: 71.50 MB
+[2024-08-07 04:36:19][notice]Prepare to zip file. file: localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_uploads.zip
+[2024-08-07 04:36:30][notice]Adding zip files completed.localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_all.part001.zip, filesize: 133.35 MB
+[2024-08-07 04:36:30][notice]Prepare to zip file. file: localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_content.zip
+[2024-08-07 04:36:31][notice]Adding zip files completed.localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_all.part001.zip, filesize: 133.35 MB
+[2024-08-07 04:36:33][notice]Prepare to zip file. file: localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_core.zip
+[2024-08-07 04:36:54][notice]Adding zip files completed.localhost_Redearth_wpvivid-66b2f6c496d45_2024-08-07-04-23_backup_all.part002.zip, filesize: 48.99 MB
+[2024-08-07 04:36:56][notice]Backing up backup_merge completed.
+[2024-08-07 04:36:56][notice]Backup completed.

@@ -18,12 +18,12 @@ if( houzez_is_fullwidth_2cols_custom_width() ) {
 				<div class="preview_loader"></div>
 			</div><!-- item-header -->	
 			<div class="item-body flex-grow-1">
+				<?php 
+				$city = houzez_taxonomy_simple('property_city');
+				echo '</strong> <span style="color:#b42128">'.esc_attr( $city ).'</span></li>';
+				?>
 				<?php get_template_part('template-parts/listing/partials/item-title'); ?>
 				
-				<div class="item-v5-price">
-					<?php echo houzez_listing_price_v5(); ?>
-				</div>
-
 				<?php if(!empty($property_type) && houzez_option('disable_type', 1)) { ?>
 				<div class="item-v5-type">
 					<?php echo esc_attr($property_type); ?>
@@ -31,6 +31,10 @@ if( houzez_is_fullwidth_2cols_custom_width() ) {
 				<?php } ?>
 
 				<?php get_template_part('template-parts/listing/partials/item-features-v5'); ?>
+				<br>
+				<div class="item-v5-price">
+					<?php echo houzez_listing_price_v5(); ?>
+				</div>
 			</div><!-- item-body -->
 		</div><!-- d-flex -->
 	</div><!-- item-wrap -->

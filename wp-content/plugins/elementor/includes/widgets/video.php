@@ -1077,7 +1077,8 @@ class Widget_Video extends Widget_Base {
 							'entranceAnimation' => $settings['lightbox_content_animation'],
 							'entranceAnimation_tablet' => $settings['lightbox_content_animation_tablet'],
 							'entranceAnimation_mobile' => $settings['lightbox_content_animation_mobile'],
-							'videoAspectRatio' => $settings['aspect_ratio'],
+							'videoAspectRatio' => isset($settings['aspect_ratio']) ? $settings['aspect_ratio'] : '1.77777', // Giá trị mặc định là '16:9'
+							//'videoAspectRatio' => $settings['aspect_ratio'],
 						],
 					];
 
