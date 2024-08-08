@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'stonerealestate' );
+define( 'DB_NAME', 'redearth' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'redearth' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '!@Redearth2024' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -80,6 +80,12 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+//define('FS_METHOD', 'direct');
+//define( 'UPLOADS', 'wp-content/uploads' );
+//define('FS_METHOD', 'direct');
+//define('WP_HOME', 'https://' .$_SERVER['HTTP_HOST'].'/');
+//define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST'] . '/' );
+
 
 /* Add any custom values between this line and the "stop editing" line. */
 
