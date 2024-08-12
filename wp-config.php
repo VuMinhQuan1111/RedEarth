@@ -80,11 +80,11 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-//define('FS_METHOD', 'direct');
-//define( 'UPLOADS', 'wp-content/uploads' );
-//define('FS_METHOD', 'direct');
-//define('WP_HOME', 'https://' .$_SERVER['HTTP_HOST'].'/');
-//define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST'] . '/' );
+define('FS_METHOD', 'direct');
+define( 'UPLOADS', 'wp-content/uploads' );
+define('FS_METHOD', 'direct');
+define('WP_HOME', 'https://' .$_SERVER['HTTP_HOST'].'/');
+define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST'] . '/' );
 
 
 /* Add any custom values between this line and the "stop editing" line. */
