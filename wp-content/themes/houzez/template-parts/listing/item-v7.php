@@ -70,8 +70,8 @@ if( houzez_is_fullwidth_2cols_custom_width() ) {
 				echo '</strong> <span style="color:#b42128">'.esc_attr( $city ).'</span></li>';
 				?>
 				<?php get_template_part('template-parts/listing/partials/item-title'); ?>
-				<br>
-				<?php //get_template_part('template-parts/listing/partials/item-address'); ?>
+				
+				<?php get_template_part('template-parts/listing/partials/item-address'); ?>
 				<?php get_template_part('template-parts/listing/partials/item-features-v7'); ?>
 				<br>
 				<?php get_template_part('template-parts/listing/partials/item-price'); ?>
