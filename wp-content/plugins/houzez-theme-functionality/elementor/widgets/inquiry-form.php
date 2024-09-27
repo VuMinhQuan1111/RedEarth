@@ -100,7 +100,9 @@ class Houzez_Elementor_Inquiry_Form extends Widget_Base {
             'e_meta[beds]' => esc_html__( 'Minimum Bedrooms', 'houzez-theme-functionality' ), //number
             'e_meta[max-beds]' => esc_html__( 'Maximum Bedrooms', 'houzez-theme-functionality' ), //number
             'e_meta[baths]' => esc_html__( 'Minimum Bathrooms', 'houzez-theme-functionality' ), //number
-            'e_meta[max-baths]' => esc_html__( 'Maximum Bathrooms', 'houzez-theme-functionality' ), //number
+	    'e_meta[max-baths]' => esc_html__( 'Maximum Bathrooms', 'houzez-theme-functionality' ), //number
+	    'e_meta[garages]' => esc_html__( 'Minimum Garages', 'houzez-theme-functionality' ), //number
+            'e_meta[max-garages]' => esc_html__( 'Maximum Garages', 'houzez-theme-functionality' ), //number
             'e_meta[area-size]' => esc_html__( 'Minimum Area Size', 'houzez-theme-functionality' ), //number
             'e_meta[max-area-size]' => esc_html__( 'Maximum Area Size', 'houzez-theme-functionality' ), //number
             'e_meta[country]' => esc_html__( 'Country', 'houzez-theme-functionality' ), // select
@@ -1182,7 +1184,10 @@ class Houzez_Elementor_Inquiry_Form extends Widget_Base {
                         case 'e_meta[max-beds]':
                         case 'e_meta[baths]':
                         case 'e_meta[min-baths]':
-                        case 'e_meta[max-baths]':
+			case 'e_meta[max-baths]':
+			case 'e_meta[garages]':
+                        case 'e_meta[min-garages]':
+                        case 'e_meta[max-garages]':	
                         case 'e_meta[area-size]':
                         case 'e_meta[max-area-size]':
                         case 'e_meta[min-area]':
